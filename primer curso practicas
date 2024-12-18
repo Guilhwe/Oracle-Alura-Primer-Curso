@@ -1,0 +1,30 @@
+Crear la tabla de clientes con los datos de
+-DNI
+-NOMBRE
+-DIRECCION
+-CALLE
+-CIUDAD
+-PROVINCIA
+-CP
+-FECHA NACIMIENTO
+-EDAD
+-SEXO
+-LIMITE DE CREDITO
+-VOLUMEN DE COMPRA
+-PRIMERA COMPRA HECHA O NO
+
+
+CREATE TABLE CLIENTES(
+DNI VARCHAR(10), 
+NOMBRE VARCHAR (100),
+DIRECCION VARCHAR (200),
+CALLE VARCHAR (50),
+CIUDAD VARCHAR (50),
+PROVINCIA VARCHAR (50),
+CP NUMBER (5),
+FECHA_NACIMIENTO DATE,
+EDAD INTEGER,
+SEXO VARCHAR (1),
+LIMITE_CREDITO NUMBER(10,2),
+VOLUMEN_MINIMO NUMBER,
+PRIMERA_COMPRA NUMBER (1)); // Este campo es un campo lógico por y oracle no tiene una variable para campos logicos por lo que se le asignara un numero para el SI (1) Y otro para el NO(0)
