@@ -28,3 +28,17 @@ SEXO VARCHAR (1),
 LIMITE_CREDITO NUMBER(10,2),
 VOLUMEN_MINIMO NUMBER,
 PRIMERA_COMPRA NUMBER (1)); // Este campo es un campo lógico por y oracle no tiene una variable para campos logicos por lo que se le asignara un numero para el SI (1) Y otro para el NO(0)
+
+
+Crear tabla de vendedores 
+ID VENDEDOR
+NOMBRE
+FECHA DE ADMISION
+PORCENTAJE DE COMISION
+
+CREATE TABLE VENDEDORES(
+ID_VENDEDOR VARCHAR(5) PRIMARY KEY,
+NOMBRE VARCHAR(100),
+FECHA_ADMISION DATE,
+PORCENTAJE_COMISION NUMBER (5,2));
+
